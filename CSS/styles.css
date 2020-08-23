@@ -91,7 +91,6 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
 color: #FFFFFF;
 }
 button {
@@ -116,6 +115,49 @@ letter-spacing: 0.06em;
 padding:0 0 0 32px;
 color: #FFFFFF;
 }
+.qualities {
+    position: absolute;
+    top:774px;
+}
+.what-we-do {
+    position: absolute;
+    top:1074px;
+}
+.our-team{
+    position: absolute;
+    top:2074px;
+}
+.examples {
+    position: absolute;
+    top:262px;
+}
+.examples li {
+margin: 0 30px 30px 0;
+}
+
+.invisible {
+    display:none;
+}
+.filter-of-works {
+    position: absolute;
+top:174px;
+}
+.filter-of-works li {
+    display: inline-flex;
+    position: relative;
+    border: 1px solid #F5F4FA;
+    background: #F5F4FA;
+border-radius: 4px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6px 22px;
+}
+.filter-of-works li:hover, .filter-of-works li:focus {
+  background: #2196F3;
+  color:#ffffff;
+}
 
 
 
@@ -123,19 +165,16 @@ color: #FFFFFF;
 
 
 
-/*  
-    .navigation .menu-list2 {
-        position: absolute;
-        font-size: 16px;
-        left: 552px;
-        top: 32px;
-            }
 
-        .navigation .menu-list3 {
-            position: absolute;
-            font-size: 16px;
-            left: 724px;
-            top: 32px;
-            margin: 0 50px 0 0;
-            }
-            */
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    top:3674px;
+}
