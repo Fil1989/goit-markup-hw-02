@@ -93,9 +93,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: #FFFFFF;
+}
 button {
     background-color: #2196F3;
-}
 }
 .order-service {
     position: absolute;
