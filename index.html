@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/styles.css">                     
+    <link rel="stylesheet" href="./CSS/styles.css">  
+    <link rel="stylesheet" href="./CSS/normalize.css">                   
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=fallback" rel="stylesheet">
 
     <title>WebStudio - разработка программного обеспечения</title>
@@ -40,7 +41,7 @@
 <button class="order-service">Заказать услугу</button>        
 </section>
         <section class="qualities">
-            <h2>Гарантия качества</h2>
+            <h2 class="invisible">Гарантия качества</h2>
             <ul class="list">
                 <li>
                     <!-- <img src="./images/vector-4.svg" alt="">                         -->
@@ -77,31 +78,32 @@
     <ul class="list">
         <li>
             <img src="./images/teammate1.jpg" alt="Игорь Демьяненко" width="270" height="260">
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <div class="teammate"><h3>Игорь Демьяненко</h3>
+                <p>Product Designer</p></div>
         </li>
         <li>
             <img src="./images/teammate2.jpg" alt="Ольга Репина" width="270" height="260">
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <div class="teammate"><h3>Ольга Репина</h3>
+                <p>Frontend Developer</p></div>
         </li>
         <li>
             <img src="./images/teammate3.jpg" alt="Николай Тарасов" width="270" height="260">
-            <h3>Николай Тарасов</h3>
-                <p>Marketing</p>
+            <div class="teammate"><h3>Николай Тарасов</h3>
+                <p>Marketing</p></div>
         </li>
         <li>
             <img src="./images/teammate4.jpg" alt="Михаил Ермаков" width="270" height="260">
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <div class="teammate"><h3>Михаил Ермаков</h3>
+                <p>UI Designer</p></div>
         </li>
     </ul>
 </section>
     </main>
     <footer>
-<p><span>Web</span>Studio</p>
+<p class="footer-logo"><span>Web</span>Studio</p>
 <address>
-    г. Киев, пр-т Леси Украинки, 26
+<p>   г. Киев, пр-т Леси Украинки, 26
+</p>
 </address>
 <p><a href="mailto:info@example.com">info@example.com</a></p>
 <p><a href="tel:380991111111">+38 099 111 11 11</a>
