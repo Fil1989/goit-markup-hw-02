@@ -178,9 +178,14 @@ border-radius: 4px;
 .examples {
     position: absolute;
     top:262px;
+    padding: 0 215px 0 215px;
 }
 .examples li {
 margin: 0 30px 30px 0;
+}
+.about-work {
+letter-spacing: 0.06em;
+text-indent: 24px;
 }
 
 .invisible {
@@ -189,6 +194,7 @@ margin: 0 30px 30px 0;
 .filter-of-works {
     position: absolute;
 top:174px;
+padding: 0 215px 0 215px;
 }
 .filter-of-works li {
     display: inline-flex;
